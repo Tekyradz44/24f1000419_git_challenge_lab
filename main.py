@@ -1,3 +1,8 @@
+from board import print_board, update_board
+from player import get_player_input
+from game import check_winner, is_draw
+from utils import is_valid_move
+
 def main():
     board = [[" " for _ in range(3)] for _ in range(3)]
     current_symbol = "X"

@@ -11,7 +11,7 @@ def main():
         print_board(game_board)
         row, col = get_player_input(current_symbol)
 
-        if not is_valid_move(board, row, col):
+        if not is_valid_move(game_board, row, col):
             print("Invalid move. Try again.")
             continue
 
